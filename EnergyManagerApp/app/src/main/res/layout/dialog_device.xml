@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_medium">
+
+        <EditText
+            android:id="@+id/field_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/field_name"
+            android:importantForAutofill="no"
+            android:inputType="textCapSentences" />
+
+        <TextView
+            style="@style/Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:text="@string/field_category" />
+
+        <Spinner
+            android:id="@+id/field_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/field_power"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:hint="@string/field_power"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/field_hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/field_hours"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/field_days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/field_days"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:text="7" />
+
+        <EditText
+            android:id="@+id/field_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/field_quantity"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:text="1" />
+
+        <CheckBox
+            android:id="@+id/field_active"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:checked="true"
+            android:text="@string/field_active" />
+
+    </LinearLayout>
+</ScrollView>

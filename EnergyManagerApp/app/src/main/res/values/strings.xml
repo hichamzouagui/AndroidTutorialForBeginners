@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gestion énergie</string>
+
+    <!-- Navigation -->
+    <string name="tab_dashboard">Tableau de bord</string>
+    <string name="tab_devices">Appareils</string>
+    <string name="tab_readings">Relevés</string>
+    <string name="tab_settings">Réglages</string>
+
+    <!-- Actions communes -->
+    <string name="action_save">Enregistrer</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_undo">Annuler</string>
+    <string name="unit_kwh">kWh</string>
+
+    <!-- Tableau de bord -->
+    <string name="dashboard_estimation_title">Estimation du mois</string>
+    <string name="dashboard_kwh_label">Consommation</string>
+    <string name="dashboard_bill_label">Facture</string>
+    <string name="dashboard_co2_label">Empreinte CO2</string>
+    <string name="dashboard_annual_bill">Soit %1$s et %2$s sur l\'année</string>
+    <string name="dashboard_budget_title">Budget mensuel</string>
+    <string name="dashboard_budget_not_set">Aucun budget défini. Renseignez-le dans les réglages pour suivre vos dépenses.</string>
+    <string name="dashboard_budget_usage">%1$s sur un budget de %2$s (%3$s)</string>
+    <string name="dashboard_measured_title">Consommation mesurée</string>
+    <string name="dashboard_no_reading">Ajoutez au moins deux relevés de compteur pour comparer vos estimations à la réalité.</string>
+    <string name="dashboard_measured">%1$s en moyenne, soit %2$s et %3$s par mois</string>
+    <string name="dashboard_gap_over">Votre estimation dépasse le compteur de %1$s : vérifiez les durées d\'utilisation saisies.</string>
+    <string name="dashboard_gap_under">Votre estimation est inférieure au compteur de %1$s : des appareils manquent probablement.</string>
+    <string name="dashboard_breakdown_title">Répartition par appareil</string>
+    <string name="dashboard_breakdown_values">%1$s · %2$s</string>
+    <string name="dashboard_breakdown_empty">Aucun appareil actif. Ajoutez vos équipements dans l\'onglet Appareils.</string>
+    <string name="dashboard_advice_title">Piste d\'économie</string>
+    <string name="dashboard_advice">%1$s est votre premier poste de dépense. En réduisant son usage de %2$s par jour, vous économiseriez environ %3$s et %4$s de CO2 par an.</string>
+    <string name="dashboard_advice_empty">Renseignez vos appareils pour obtenir des pistes d\'économie personnalisées.</string>
+    <string name="chart_empty">Pas encore assez de relevés pour tracer un historique.</string>
+    <string name="chart_caption">Consommation ramenée au mois, par période entre deux relevés. La ligne horizontale est votre repère (budget ou estimation).</string>
+
+    <!-- Appareils -->
+    <string name="devices_empty">Aucun appareil enregistré. Appuyez sur + pour ajouter votre premier équipement.</string>
+    <string name="devices_total">Total actif : %1$s par mois, soit %2$s d\'énergie</string>
+    <string name="devices_add_description">Ajouter un appareil</string>
+    <string name="device_add">Nouvel appareil</string>
+    <string name="device_edit">Modifier l\'appareil</string>
+    <string name="device_detail">%1$s · %2$s/jour · %3$d j/semaine %4$s</string>
+    <string name="device_quantity">· ×%1$d</string>
+    <string name="device_cost">%1$s / mois</string>
+    <string name="device_enable">Activer l\'appareil</string>
+    <string name="device_disable">Désactiver l\'appareil</string>
+    <string name="device_delete_description">Supprimer l\'appareil</string>
+    <string name="device_delete_title">Supprimer cet appareil ?</string>
+    <string name="device_delete_message">« %1$s » sera retiré de vos calculs.</string>
+    <string name="device_deleted">« %1$s » supprimé</string>
+
+    <!-- Formulaire appareil -->
+    <string name="field_name">Nom de l\'appareil</string>
+    <string name="field_category">Catégorie</string>
+    <string name="field_power">Puissance (W)</string>
+    <string name="field_hours">Heures par jour d\'utilisation</string>
+    <string name="field_days">Jours d\'utilisation par semaine (1 à 7)</string>
+    <string name="field_quantity">Quantité</string>
+    <string name="field_active">Appareil en service</string>
+
+    <!-- Relevés -->
+    <string name="readings_empty">Aucun relevé. Appuyez sur + pour saisir l\'index de votre compteur.</string>
+    <string name="readings_add_description">Ajouter un relevé</string>
+    <string name="readings_need_two">Saisissez un second relevé pour calculer votre consommation réelle.</string>
+    <string name="readings_summary">%1$d période(s) mesurée(s) · %2$s · facture projetée %3$s</string>
+    <string name="reading_add">Nouveau relevé</string>
+    <string name="reading_edit">Modifier le relevé</string>
+    <string name="reading_index">Index : %1$s kWh</string>
+    <string name="reading_first">Premier relevé : sert de point de départ.</string>
+    <string name="reading_inconsistent">Relevé incohérent avec le précédent : il est ignoré dans les calculs.</string>
+    <string name="reading_consumption">%1$s · %2$s · %3$s</string>
+    <string name="reading_delete_description">Supprimer le relevé</string>
+    <string name="reading_delete_title">Supprimer ce relevé ?</string>
+    <string name="reading_delete_message">Le relevé du %1$s sera supprimé.</string>
+    <string name="reading_deleted">Relevé supprimé</string>
+    <string name="field_date">Date du relevé</string>
+    <string name="field_index">Index du compteur (kWh)</string>
+    <string name="field_note">Commentaire (optionnel)</string>
+
+    <!-- Réglages -->
+    <string name="settings_tariff_title">Tarif de l\'électricité</string>
+    <string name="settings_price">Prix du kWh (€)</string>
+    <string name="settings_standing_charge">Abonnement mensuel (€)</string>
+    <string name="settings_co2">Émissions (g CO2 / kWh)</string>
+    <string name="settings_budget_title">Budget</string>
+    <string name="settings_budget">Budget mensuel (€, vide = aucun)</string>
+    <string name="settings_defaults">Valeurs par défaut : %1$s €/kWh, %2$s € d\'abonnement, %3$s g CO2/kWh. Reprenez les chiffres de votre facture pour un suivi précis.</string>
+    <string name="settings_save">Enregistrer les réglages</string>
+    <string name="settings_reset">Valeurs par défaut</string>
+    <string name="settings_saved">Réglages enregistrés</string>
+
+    <!-- Erreurs de saisie -->
+    <string name="error_required">Champ obligatoire</string>
+    <string name="error_power">Puissance invalide (nombre positif attendu)</string>
+    <string name="error_hours">Durée invalide (entre 0 et 24 heures)</string>
+    <string name="error_days">Nombre de jours invalide (entre 1 et 7)</string>
+    <string name="error_quantity">Quantité invalide (1 minimum)</string>
+    <string name="error_index">Index invalide (nombre positif attendu)</string>
+    <string name="error_price">Prix invalide</string>
+    <string name="error_standing_charge">Abonnement invalide</string>
+    <string name="error_co2">Facteur d\'émission invalide</string>
+    <string name="error_budget">Budget invalide</string>
+</resources>

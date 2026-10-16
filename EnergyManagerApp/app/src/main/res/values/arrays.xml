@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="device_categories">
+        <item>Chauffage</item>
+        <item>Eau chaude</item>
+        <item>Froid</item>
+        <item>Lavage</item>
+        <item>Cuisson</item>
+        <item>Éclairage</item>
+        <item>Multimédia</item>
+        <item>Informatique</item>
+        <item>Mobilité</item>
+        <item>Autre</item>
+    </string-array>
+</resources>

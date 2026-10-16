@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tab_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/tab_dashboard" />
+
+    <item
+        android:id="@+id/tab_devices"
+        android:icon="@drawable/ic_devices"
+        android:title="@string/tab_devices" />
+
+    <item
+        android:id="@+id/tab_readings"
+        android:icon="@drawable/ic_readings"
+        android:title="@string/tab_readings" />
+
+    <item
+        android:id="@+id/tab_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/tab_settings" />
+
+</menu>
